@@ -1,0 +1,23 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   
+     int i,j,N;
+  
+     cout<<"please Enter valuer of matrix" << endl;
+     cin >> N;
+
+     for(i=1;i<=N;i++){
+
+        for(j=1;j<=N;j++){
+
+            cout <<j <<" ";
+        }  
+       cout<<endl; 
+     }
+     
+    
+
+    return 0;
+}
